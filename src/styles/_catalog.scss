@@ -17,14 +17,14 @@
   }
 
   @media screen and(min-width: $media-phone) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, $card-width);
   }
 
   @media screen and( min-width: $media-tablet) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, $card-width);
   }
 
   @media screen and( min-width: $media-desktop) {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, $card-width);
   }
 }
